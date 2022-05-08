@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    background-color:#ccc;
+    font-size:24px;
+    display: flex;
+}
+
+header img{
+    width: 200px;
+}
+
+.janken{
+    margin-left: 80px;
+}
+
+.janken img{
+    width: 60px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #fff;
+    
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color:rgba(255, 255, 128, .5);
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:rgba(255, 255, 128, .5);
+}
+
+.main1{
+    text-align: left;
+    font-size: 32px;
+    margin-left: 24px;
+}
+
+.footer1{
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+#comp{
+    margin-left: 24px;
+}
+
+#judg{
+    margin-left: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir','Helvetica','Neue','Helvetica','Arial';
+}
+
+/* モーダルCSS */
+.modalArea {
+    display: none;
+    position: fixed;
+    z-index: 10; /* サイトによって個々の数値は調整 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modalBg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    max-width: 500px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.closeModal {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+/* 以下ボタンスタイル */
+button {
+    padding: 10px;
+    background-color: rgb(232, 230, 230);
+        border: 1px solid #282828;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#openModal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 180px;
+    margin-top: 150px;
+    font-size: 12px;
+}
+
+.modalContents img{
+    width: 100%;
+}
